@@ -1,35 +1,36 @@
-# NexT
+# github博客写作说明
 
-> 精于心，简于形
+##　构建blob框架
 
-NexT 是由 [Hexo NexT](https://github.com/iissnan/hexo-theme-next) 移植而来的 Jekyll 主题。<!--commit: f951075d9b739d26b42472431995fa68d08796aa-->
+１.申请github账号：，同时以ｇithub账号名为名，创建一个仓库，在设置中自动开启域名GitPage．这一步其实已经可以访问自己的网站了，但是还没有什么具体的内容．
 
-<a href="http://simpleyyt.github.io/jekyll-theme-next/" target="_blank">在线预览 Preview</a> | <a href="http://simpleyyt.com" target="_blank">Yitao's Blog</a> | <a href="http://theme-next.simpleyyt.com" target="_blank">NexT 使用文档</a> |  [English Documentation](README.en.md)
+２.下载别人blob框架，再上传到自己建立的那个仓库下，下载地址<https://github.com/Simpleyyt/jekyll-theme-next>
 
-[![Join the chat at https://gitter.im/simpleyyt/jekyll-theme-next](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jekyll-theme-next/lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+３.在本地文件中修改_config.yaml文件，主要修改：
 
-![NexT Schemes](http://iissnan.com/nexus/next/next-schemes.jpg)
+`title: ＃全局标题` 　
+
+`subtitle: ＃全局标题下一句话`
+
+`description: ＃个人头像下一句话 `
+
+`author：＃头像名字'`
+
+`language: zh-Hans`
+
+４.这样一个模板网站就建立了，有一些内容了．
+
+５.主要是写博客，没必要注意多余的东西，关注_post文件夹，博文都在文件夹中，但是要按照一定的格式来，格式参照模板中的格式，框架会自动抽取博文内容，给予显示．只需要在文件夹中新建文件写就行了，然后push
+
+## github_mardown注意
+
+１．段落：唯一决定两行文字是否是段落的,就在于这两行文字之间是否有空行．所以在这个编辑器中，每当新起一段，都会自动加入空行，而不是在尾部插入空格．
+
+２．缩进问题,中文书写总要有缩进才好看,缩进的方式网上有很多内容,经过实验,全角输入下，两个空格能实现在段首缩进
 
 
-## 浏览器支持 Browser support
-
-![Browser support](http://iissnan.com/nexus/next/browser-support.png)
 
 
-## 贡献 Contributing
-
-欢迎提交问题与需求，修复代码。
 
 
-## 开发 Development
-
-NexT 主旨在于简洁优雅且易于使用，所以首先要尽量确保 NexT 的简洁易用性。
-
-NexT is built for easily use with elegant appearance. First things first, always keep things simple.
-
-
-## 捐赠
-
-支付宝捐赠链接还是要有的，万一真的有人捐呢。
-
-![支付宝扫码捐赠](http://7lryc0.com1.z0.glb.clouddn.com/a6x049034plyvjm1rvn4h28%20%281%29.png)
+　　
