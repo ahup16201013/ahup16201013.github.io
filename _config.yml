@@ -84,7 +84,7 @@ keywords: "Jekyll, NexT"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: false
 
 # Specify the date when the site was setup
 #since: 2015
@@ -380,12 +380,12 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
-  count: true
+  enable: true
+  shortname: Bryanance
+  count: false
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
-  hide: false
+  hide: true
 
 # <wildfire>
 wildfire:
@@ -631,7 +631,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # three_waves
 three_waves: false
